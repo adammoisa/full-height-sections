@@ -1,0 +1,29 @@
+{
+  "name": "full-height-sections",
+  "version": "1.0.0",
+  "description": "Vanilla.js full-height sections plugin. Create full screen pages simple.",
+  "main": "fullHeight.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "babel-preset-es2015": "^6.22.0",
+    "gulp-banner": "^0.1.3",
+    "gulp-babel": "^6.1.2",
+    "gulp-uglify": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qmixi/full-height-sections.git"
+  },
+  "author": "Piotr Kumorek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qmixi/full-height-sections/issues"
+  },
+  "homepage": "https://github.com/qmixi/full-height-sections"
+}
