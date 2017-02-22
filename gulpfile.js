@@ -31,7 +31,18 @@ gulp.task('js', function() {
 		.pipe(gulp.dest('./dist'));
 });
 
-gulp.task('default', ['js'], function(){
+gulp.task('js_', function() {
+	gulp.src('./fullHeight.js')
+		.pipe(sourcemaps.init())
+		.pipe(banner(comment, {
+			pkg: pkg
+		}))
+		.pipe(sourcemaps.write('.'))
+		.pipe(rename({suffix: '.es6'}))
+		.pipe(gulp.dest('./dist'));
+});
+
+gulp.task('default', ['js', 'js_'], function(){
 	//watch js
 	gulp.watch("./fullHeight.js", ['js']);
 });

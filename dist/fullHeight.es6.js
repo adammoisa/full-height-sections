@@ -1,3 +1,12 @@
+/*
+ * full-height-sections 1.0.0
+ * Vanilla.js full-height sections plugin. Create full screen pages simple.
+ * https://github.com/qmixi/full-height-sections
+ *
+ * Copyright (C) 2017 - A project by Piotr Kumorek
+ * Released under the MIT license.
+*/
+
 class FullHeight {
 	constructor(options) {
 		this.elements = options.elements || 'full-height';
@@ -30,6 +39,7 @@ class FullHeight {
 	observe() {
 		window.addEventListener("resize", () => {
 			this.setHeight();
-		});
+	});
 	};
 };
+//# sourceMappingURL=fullHeight.js.map
