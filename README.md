@@ -31,7 +31,7 @@ var fullHeight = new FullHeight({
 
 ## License
 
-The credit comments in the JavaScript files should be kept intact
+**The credit comments in the JavaScript files should be kept intact**
 
 (The MIT License)
 
