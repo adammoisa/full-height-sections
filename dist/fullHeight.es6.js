@@ -39,7 +39,7 @@ class FullHeight {
 	observe() {
 		window.addEventListener("resize", () => {
 			this.setHeight();
-	});
+		});
 	};
 };
 //# sourceMappingURL=fullHeight.js.map
