@@ -28,3 +28,11 @@ var fullHeight = new FullHeight({
 	elements: 'full-section'
 });
 </pre>
+
+## License
+
+The credit comments in the JavaScript files should be kept intact
+
+(The MIT License)
+
+Copyright (c) 2017 Piotr Kumorek &lt;contact.piotrkumorek@gmail.com&gt;
