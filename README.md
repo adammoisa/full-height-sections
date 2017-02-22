@@ -24,7 +24,7 @@ Vanilla.js full-height sections plugin. Create full screen pages simple.
 
 ### Example Usage:
 <pre>
-    var fullHeight = new FullHeight({
-    	elements: 'full-section'
-    });
+var fullHeight = new FullHeight({
+	elements: 'full-section'
+});
 </pre>
