@@ -1,4 +1,4 @@
-Vanilla.js full-height sections plugin. Create full screen pages simple.
+**ES6** Vanilla.js full-height sections plugin. Create full screen pages simple.
 
 ### Sample Markup:
 <pre>&lt;div class="full-section">
